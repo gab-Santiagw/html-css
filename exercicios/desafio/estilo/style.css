@@ -1,0 +1,122 @@
+@charset "utf-8";
+*{font-family: Arial, Helvetica, sans-serif;}
+
+
+    body{
+        background-image: linear-gradient(180deg, rgb(138, 86, 37), rgb(114, 83, 43));
+        background-attachment: fixed;
+}
+
+nav{
+    text-align: center;
+    background-color: rgba(13, 14, 12, 0.5);
+    padding: 7px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    text-decoration: none;
+    font-weight: bold; 
+}
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 300ms;
+}
+nav > a:hover{
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 7px;
+}
+main{
+    background-color: rgba(13, 14, 12, 0.5);
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.24);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+   padding: 7px;
+    
+}
+
+
+p#linha{
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.829);
+    min-width: 320px;
+    max-width: 800px;
+   margin: 0px;
+   margin: auto;
+   padding-left: 7px;
+   padding-right: 7px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   
+}
+footer{
+padding: 7px;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    text-align: center;
+}
+picture{
+    margin: auto;
+    padding: 15px ;
+   
+}
+
+div#video{
+    background-color:rgba(0, 0, 0, 0.692) ;
+    padding: 15px ;
+    padding-bottom: 50%;
+    position: relative;
+}
+div#video > iframe{
+ position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+header{
+    
+    background-color: rgba(0, 0, 0, 0.829);
+    min-width: 320px;
+max-width: 800px;
+margin: auto;
+padding-bottom: 7px;
+padding-right: 7px;
+padding-left: 7px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+text-align: center;
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.815);
+}
+h1#principal{
+    margin-bottom: 0px;
+    padding-top: 5px;
+    
+}
+p#principal{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-indent: 0px;
+}
+article p{
+    padding-left: 15px ;
+    padding-right: 15px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+article h1{
+    padding-left: 15px ;
+    padding-right: 15px;
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.644), transparent)
+}
+
+li{
+   font-size: 20px;
+}
